@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Form Using GET</title>
+</head>
+<body>
+    <form action="/submit-get" method="GET">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username"><br><br>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br><br>
+        
+        <label for="keepLoggedIn">Keep me logged in:</label>
+        <input type="checkbox" id="keepLoggedIn" name="keepLoggedIn"><br><br>
+        
+        <button type="submit">Login</button>
+    </form>
+</body>
+</html>
+
